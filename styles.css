@@ -11,8 +11,8 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: #fff;
   color: #243a6f;
+  background-color: #fff;
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
@@ -40,14 +40,14 @@ li {
   margin: 0 auto;
 }
 .container-md {
-  max-width: 100rem;
   margin: 0 auto;
+  max-width: 100rem;
 }
 .header {
+  background-color: #d1e2e9;
   position: relative;
   width: 100%;
   min-height: 100vh;
-  background-color: #d1e2e9;
   overflow: hidden;
 }
 .nav {
