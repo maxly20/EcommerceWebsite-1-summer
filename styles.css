@@ -54,8 +54,8 @@ li {
   padding: 1.6rem 0;
 }
 .navigation {
-  display: flex;
   align-items: center;
+  display: flex;
   justify-content: space-between;
 }
 .logo h1 {
