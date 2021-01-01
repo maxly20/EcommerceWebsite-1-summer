@@ -80,8 +80,8 @@ li {
   display: none;
 }
 .nav-list {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 .nav-item:not(:last-child) {
   margin-right: 0.5rem;
@@ -113,12 +113,12 @@ li {
 }
 @media screen and (max-width: 768px) {
   .menu {
+    height: 100%;
     position: fixed;
     top: 0;
     left: -100%;
     width: 80%;
     max-width: 40rem;
-    height: 100%;
     background-color: #fff;
     transition: all 0.5s ease-in-out;
     z-index: 100;
@@ -127,30 +127,30 @@ li {
     left: 0;
   }
   .top-nav {
+    background-color: #243a6f;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #243a6f;
     padding: 1rem 1.6rem;
   }
   .top-nav .logo {
     color: #fff;
   }
   .top-nav .close {
+    cursor: pointer;
     color: #fff;
     font-size: 3rem;
     padding: 1rem;
-    cursor: pointer;
   }
   .cart-icon {
     display: block;
     font-size: 3rem;
   }
   .hamburger {
+    cursor: pointer;
     display: block;
     font-size: 3rem;
     padding: 0.5rem;
-    cursor: pointer;
   }
   .nav-list {
     flex-direction: column;
@@ -172,11 +172,11 @@ li {
   body.show::before {
     content: '';
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
     z-index: 4;
   }
   .nav.show {
