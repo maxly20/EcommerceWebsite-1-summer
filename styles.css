@@ -208,9 +208,9 @@ li {
 }
 .hero-content h1 span {
   color: #253b70;
+  display: block;
   font-size: 5rem;
   font-weight: 700;
-  display: block;
   line-height: 1;
   text-shadow: 3px 3px 0 #f1f1f1, 4px 4px 0 #f1f1f1;
 }
