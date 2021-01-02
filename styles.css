@@ -283,10 +283,10 @@ li {
   gap: 3rem;
 }
 .vert-box {
-  position: relative;
-  color: #fff;
-  height: 27rem;
   border-radius: 1.6rem;
+  color: #fff;
+  position: relative;
+  height: 27rem;
   padding: 1.6rem;
   overflow: hidden;
   z-index: 1;
@@ -309,10 +309,10 @@ li {
   background-color: #e5bc00;
 }
 .vert-box .dotted {
-  position: relative;
-  height: 100%;
   border: 2px dashed #f1f1f1;
   border-radius: 1rem;
+  position: relative;
+  height: 100%;
 }
 .vert-box .content {
   position: absolute;
