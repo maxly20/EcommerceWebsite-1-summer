@@ -451,10 +451,10 @@ li {
 }
 /* PRODUCT BANNER  */
 .product-banner {
+  background-color: #243a6f;
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 50rem;
-  background-color: #243a6f;
   overflow: hidden;
 }
 .product-banner .left img {
@@ -513,10 +513,10 @@ li {
   gap: 6rem;
 }
 .testimonial {
-  position: relative;
-  padding: 5rem;
   background-color: #fff;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding: 5rem;
   transition: all 0.3s ease-in-out;
   text-align: center;
   border-radius: 0.5rem;
@@ -530,9 +530,9 @@ li {
   top: 2%;
   left: 50%;
   font-size: 8rem;
+  font-family: sans-serif;
   transform: translate(-50%, 0);
   line-height: 1;
-  font-family: sans-serif;
 }
 .testimonial p {
   margin: 2rem 0 1rem 0;
@@ -542,8 +542,8 @@ li {
 }
 .testimonial .img-cover {
   border-radius: 50%;
-  width: 8rem;
   height: 8rem;
+  width: 8rem;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -584,14 +584,14 @@ li {
   margin-right: 1rem;
 }
 .footer-container {
+  color: #fff;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  color: #fff;
 }
 .footer-center a:link,
 .footer-center a:visited {
-  display: block;
   color: #f1f1f1;
+  display: block;
   font-size: 1.4rem;
   transition: 0.6s;
 }
