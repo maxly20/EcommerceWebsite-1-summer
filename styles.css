@@ -113,13 +113,13 @@ li {
 }
 @media screen and (max-width: 768px) {
   .menu {
+    background-color: #fff;
     height: 100%;
     position: fixed;
     top: 0;
     left: -100%;
     width: 80%;
     max-width: 40rem;
-    background-color: #fff;
     transition: all 0.5s ease-in-out;
     z-index: 100;
   }
@@ -609,8 +609,8 @@ li {
 }
 @media screen and (max-width: 1000px) {
   .footer-container {
-    grid-template-columns: repeat(2, 1fr);
     row-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media screen and (max-width: 780px) {
